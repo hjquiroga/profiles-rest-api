@@ -14,7 +14,8 @@ apt-get install -y python3-dev python3-venv sqlite python-pip supervisor nginx g
 echo "Create directory"
 echo ls
 # Create project directory
-echo " creando 1"
+echo " creando 1 y borrando"
+rmdir $PROJECT_BASE_PATH
 mkdir -p $PROJECT_BASE_PATH
 echo "creando 2o"
 
