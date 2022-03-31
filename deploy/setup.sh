@@ -17,6 +17,7 @@ echo ls
 echo " creando 1"
 mkdir -p $PROJECT_BASE_PATH
 echo "creando 2o"
+echo "pull"
 git pull $PROJECT_GIT_URL $PROJECT_BASE_PATH
 
 echo "Create VE"
