@@ -16,9 +16,9 @@ echo ls
 # Create project directory
 echo " creando 1"
 mkdir -p $PROJECT_BASE_PATH
-echo "creando 2o00"
-echo "pull"
-git pull $PROJECT_GIT_URL $PROJECT_BASE_PATH
+echo "creando 2o"
+
+git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH
 
 echo "Create VE"
 # Create virtual environment
