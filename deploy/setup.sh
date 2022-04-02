@@ -21,7 +21,7 @@ echo "creando 2o"
 
 git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH
 
-echo "Create VE"
+echo "Create VE idented deleted"
 # Create virtual environment
 mkdir -p $PROJECT_BASE_PATH/env
 python3 -m venv $PROJECT_BASE_PATH/env
